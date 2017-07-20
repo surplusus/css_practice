@@ -1,0 +1,18 @@
+packages: [
+  "atom-beautify"
+  "autoclose-html"
+  "busy-signal"
+  "code-peek"
+  "color-picker"
+  "emmet"
+  "highlight-selected"
+  "intentions"
+  "linter"
+  "linter-ui-default"
+  "minimap"
+  "minimap-highlight-selected"
+  "package-sync"
+  "pigments"
+  "seti-ui"
+  "sort-lines"
+]

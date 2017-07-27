@@ -1,0 +1,3 @@
+@font-face {font-family:³ª´®°íµñ; src:url(images/NanumGothic.eot)};
+body{font-family:³ª´®°íµñ; font-size: 13px;}
+div{font-family:³ª´®°íµñ; font-size: 13px;}

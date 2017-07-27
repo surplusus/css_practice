@@ -1,0 +1,2 @@
+The Singularity Is Near: When Humans Transcend Biology is a 2005 non-fiction book about artificial intelligence and the future of humanity by inventor and futurist Ray Kurzweil.
+The book builds on the ideas introduced in Kurzweil's previous books, The Age of Intelligent Machines (1990) and The Age of Spiritual Machines (1999). This time, however, Kurzweil embraces the term the Singularity, which was popularized by Vernor Vinge in his 1993 essay "The Coming Technological Singularity" more than a decade earlier.[1]

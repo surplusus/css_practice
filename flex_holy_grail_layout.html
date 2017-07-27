@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body{
+      display: flex;
+      align-items: center;
+    }
+      .container{
+        display: flex;
+        flex-direction: column;
+      }
+
+      header{
+        border-bottom: 1px solid gray;
+        padding: 20px;
+      }
+      footer{
+        padding: 10px;
+        display: inline;
+        height: 20px;
+        width: 400px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        text-align: center;
+        background-color: gray;
+        position: relative;
+        align-self: center;
+      }
+      .content{
+        display: flex;
+        flex-direction: row;
+      }
+      .content nav{
+        border-right: 1px solid gray;
+      }
+      .content aside{
+        border-left: 1px solid gray;
+      }
+      nav, aside{
+        flex-basis: 150px;
+        flex-shrink: 0;
+        flex-grow: 1;
+      }
+      main{
+        padding: 10px;
+        flex-grow: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>practice coding</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </nav>
+        <main>
+          The book builds on the ideas introduced in Kurzweil's previous books, The Age of Intelligent Machines (1990) and The Age of Spiritual Machines (1999). This time, however, Kurzweil embraces the term the Singularity, which was popularized by Vernor Vinge in his 1993 essay "The Coming Technological Singularity" more than a decade earlier.[1]
+        </main>
+        <aside>
+
+        </aside>
+      </section>
+      <footer>
+        <a href="https://surplusus.github.io/">홈페이지</a>
+      </footer>
+    </div>
+  </body>
+</html>

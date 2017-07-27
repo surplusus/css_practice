@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>flex practice</title>
+    <style media="screen">
+      .container{
+        background-color: rgb(139, 115, 240);
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+      }
+      .item{
+        background-color:rgb(233, 200, 131);
+        color: white;
+        border: 1px dotted black;
+      }
+      .item:first-child{
+        flex-basis: 150px;
+        flex-shrink: 0;
+      }
+      .item:nth-child(2){
+        flex-basis: 200px;
+        flex-shrink: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+
+    </div>
+  </body>
+</html>

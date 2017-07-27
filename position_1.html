@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--엘리먼트의 위치를 정하는 속성 position 속성값 4가지
+1. static(기본값) : 움직이지 않고 정적인 상태
+2. relative : 부모 엘리먼트를 기준으로 상대적으로 움직인다
+3. absolute : position값이 relative인 부모를 기준으로(없다면 웹페이지의 가장 가장자리 기준) 움직인다.
+* 자식의 위치값이 absolute이면 부모와의 관계가 끊기고 그래서 자신의 크기가 딱 컨텐츠만 해진다.
+그리고 값을 아예 없애면 원래 위치로 돌아간다.
+4. fixed : 스크롤을 움직여도 지정된 위치에 고정된다.
+* absolute와 마찬가지로 부모와의 관계가 끊기고 크기는 자신의 컨텐츠만 해진다. -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>position</title>
+    <style media="screen">
+      body{
+        padding-top: 30px;
+      }
+      .parent, .other{
+        border: 5px solid tomato;
+      }
+      .lar{
+        height: 10000px;
+        background-color: blue;
+
+      }
+      .me{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        position: fixed;
+        height: 30px;
+        top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="other">
+      other
+    </div>
+
+      <div class="parent">
+        parent
+        <div class="me">
+          me
+        </div>
+      </div>
+      <div class="lar">
+        large
+      </div>
+
+  </body>
+</html>

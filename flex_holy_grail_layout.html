@@ -39,6 +39,21 @@
       .content aside{
         border-left: 1px solid gray;
       }
+      @media(max-width:500px){
+        .content{
+          flex-direction: column;
+        }
+        .content nav{
+          border: none;
+        }
+        .content aside{
+          border:none;
+        }
+        main{order:1;}
+        nav{order:2;}
+        aside{order:3; display:none;}
+
+      }
       nav, aside{
         flex-basis: 150px;
         flex-shrink: 0;
